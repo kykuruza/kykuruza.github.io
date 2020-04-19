@@ -1,0 +1,344 @@
+/* icons font-face */
+@font-face {
+    font-family: "FiltrifyRegular";
+    src: url("../font/filtrify/filtrify-webfont.html");
+    src: url("../font/filtrify/filtrify-webfontd41d.html?#iefix") format("embedded-opentype"),
+         url("../font/filtrify/filtrify-webfont-2.html") format("woff"),
+         url("../font/filtrify/filtrify-webfont-3.html") format("truetype"),
+         url("../font/filtrify/filtrify-webfont-4.html#FiltrifyRegular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* reset */
+ul.ft-menu,
+ul.ft-menu * { 
+	margin: 0; 
+	border: 0; 
+	padding: 0;
+	line-height: 1;
+	position: relative;
+	text-align: left;
+    font: normal normal 100% sans-serif;
+	/*font-size:15px;*/
+
+	
+	
+}
+
+ ul.filtry {
+  list-style: none;
+  margin: 10px 0px;
+  padding: 0;
+}
+
+ ul.filtry > li {
+  /*display: inline-block;
+  background: #fff;
+  vertical-align: top;
+  margin: 5px;
+  padding: 5px;
+  max-width: 113px;
+height:205px  */
+display: inline-block;
+border: 1px solid #eee;
+    color: #e30613;
+    min-height: 220px;
+    padding: 5px;
+    text-align: center;
+     max-width: 129px;
+	 min-width: 129px;
+height:205px;
+margin-right:10px;
+margin-bottom:10px
+  }
+  
+    ul.filtry > li  > h4 {  font-size:14px; line-height:16px }
+
+
+ul.ft-menu { 
+	list-style: none;
+	text-transform:uppercase;
+	
+}
+
+
+
+ul.ft-menu > li.ft-field { 
+font-family: sans-serif;
+	display: inline-block; 
+	*display: inline; 
+	*zoom: 1;
+	margin-right: 18px;	
+	position: relative !important;
+	line-height:50px;
+	line-height:50px;
+	margin-bottom:20px;	
+	background:#ffffff;
+	padding-top:3px;
+	
+}
+
+ul.ft-menu > li.ft-field > span.ft-label { 
+display:none;
+    cursor: pointer;
+	/*background:#eeeeee; */
+	padding:24px 10px;	
+	font-size:16px;
+	padding-left:15px;
+	font-weight:bold;
+	
+	
+}
+
+ul.ft-menu > li.ft-field > span.ft-label:before {  
+ font-family: "fontello"; 
+    display: inline-block; 
+    *display: inline; 
+	*zoom: 1;
+    width: 60px;
+	font-size:50px;	
+	position:absolute;
+	left:10px;
+	bottom:3px
+}
+
+p.info > span.categoria:before {  
+ font-family: "fontello"; 
+    display: inline-block; 
+    *display: inline; 
+	*zoom: 1;
+    width: 20px;
+	font-size:18px;
+	color:#666666;
+}
+
+ul.ft-menu > li.ft-field > span.famiglia:before, p.info > span.famiglia:before { 
+ content: "\e807";  
+}
+
+
+
+ul.ft-menu > li.ft-field > span.fonte:before,  p.info > span.fonte:before {    
+    content: "\e800"; 
+}
+
+ul.ft-menu > li.ft-field > span.applicazione:before,  p.info > span.applicazione:before {    
+    content: "\e80e"; 
+}
+
+ul.ft-menu > li.ft-field > span.tipo:before,  p.info > span.tipo:before {    
+    content: "\e802"; 
+}
+
+ul.ft-menu > li.ft-field > span.combustione:before,  p.info > span.combustione:before {    
+    content: "\e80c"; 
+}
+
+ul.ft-menu > li.ft-field > span.gamma:before,  p.info > span.gamma:before {    
+   content: "\e80a";  
+}
+
+ul.ft-menu > li.ft-field > span.ft-label:after { 
+    font-size: 10px; 
+    content: " \25bc"; 
+	color:#ED1620;
+	padding-left:3px
+}
+
+ul.ft-menu > li.ft-field > span.ft-label.ft-active {
+	/*background:#666666*/
+
+}
+
+ul.ft-menu > li.ft-field > span.ft-label.ft-active:before { 
+color:#666666;
+}
+
+
+ul.ft-menu > li.ft-field > span.ft-label.ft-opened:after { 
+    content: " \25b2";
+	font-size:10px;
+	color:#666666;
+}
+
+ul.ft-menu > li.ft-field > div.ft-panel { 
+	position: relative; 
+	min-width: 200px; 
+	margin-top: 15px;
+
+}
+ul.ft-menu > li.ft-field > div.ft-panel:before,
+ul.ft-menu > li.ft-field > div.ft-panel:after {
+
+}
+ul.ft-menu > li.ft-field > div.ft-panel:before {
+
+}
+ul.ft-menu > li.ft-field > div.ft-panel:after {
+
+}
+
+ul.ft-menu > li.ft-field > div.ft-panel > ul.ft-selected {
+
+	padding: 0px;
+
+}
+ul.ft-menu > li.ft-field > div.ft-panel > ul.ft-selected > li {
+ font:"Open Sans",sans-serif;
+	display: inline-block;
+  color: #fff;
+  font-size: 13px;
+  padding: 7px 14px;
+  background: #cccccc;
+  margin-bottom: 4px;
+  transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  cursor:pointer;
+  margin-right:10px;
+
+}
+ul.ft-menu > li.ft-field > div.ft-panel > ul.ft-selected > li:after {
+background: none repeat scroll 0 0 #E30613;
+font-size:13px;
+border-radius: 8px;
+	content: "\00D7";
+	color: white;	
+	 padding: 2px 4px;
+	 margin-left:6px
+}
+ul.ft-menu > li.ft-field > div.ft-panel > ul.ft-selected > li:active {
+	background: #666666;
+	background: -webkit-linear-gradient(#666666, #666666);
+	background: -moz-linear-gradient(#666666, #666666);
+	background: -o-linear-gradient(#666666, #666666);
+	background: -ms-linear-gradient(#666666, #666666);
+	background: linear-gradient(#666666, #666666);
+}
+
+ul.ft-menu > li.ft-field > div.ft-panel > fieldset.ft-search { 
+DISPLAY:NONE;
+	padding: 10px;
+	background: #F5F3EE;
+	background: -webkit-linear-gradient(#F5F3EE, #D0CDC9);
+	background: -moz-linear-gradient(#F5F3EE, #D0CDC9);
+	background: -o-linear-gradient(#F5F3EE, #D0CDC9);
+	background: -ms-linear-gradient(#F5F3EE, #D0CDC9);
+	background: linear-gradient(#F5F3EE, #D0CDC9);
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr="#F5F3EE", EndColorStr="#D0CDC9");
+}
+ul.ft-menu > li.ft-field > div.ft-panel > fieldset.ft-search:before {
+	font: normal normal 11px "FiltrifyRegular";
+	content: "s";
+	position: absolute;
+    width: 20px;
+	bottom: 15px;
+	left: 18px;
+	color: #BBB;
+	text-shadow: none;
+	z-index: 1;
+}
+ul.ft-menu > li.ft-field > div.ft-panel > fieldset.ft-search > input { 
+	outline: none;
+	display: block;
+	width: 140px;
+	padding: 4px 10px 4px 25px;
+	color: gray;
+	background: white;
+	
+	box-shadow: inset 0 1px 3px rgba(0,0,0,.4), inset 0 1px 0 rgba(0,0,0,.3);
+}
+
+ul.ft-menu > li.ft-field > div.ft-panel > ul.ft-tags { 
+	position: relative !important; 	
+	
+}
+ul.ft-menu > li.ft-field > div.ft-panel > ul.ft-tags > li { 
+	display: block;
+	FLOAT:LEFT;
+	/*box-shadow: inset 0 1px 0 0 #878e98;*/
+	display: block;
+	font-weight: bold;	
+	padding: 7px 35px 7px 15px;
+	cursor: pointer;
+	margin-right:10px;
+	 font:"Open Sans",sans-serif;
+	 margin-bottom:10px
+	/*background: -webkit-linear-gradient(#727A86, #505864);
+	background: -moz-linear-gradient(#727A86, #505864);
+	background: -o-linear-gradient(#727A86, #505864);
+	background: -ms-linear-gradient(#727A86, #505864);
+	background: linear-gradient(#727A86, #505864);
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr="#727a86", EndColorStr="#505864");*/
+}
+
+.men-hidden { display:none }
+ul.ft-menu > li.ft-field > div.ft-panel > ul.ft-tags > li:after { 
+	content: attr(data-count);
+    font-size: 11px;
+    font-weight: normal;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	margin-top: -9px;
+	padding: 3px 6px;
+	color: white;
+	background: #828387; 
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+/*	box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, .26), 0px 1px 0px 0px rgba(255, 255, 255, .15);*/
+}
+ul.ft-menu > li.ft-field > div.ft-panel > ul.ft-tags > li.ft-highlight { 
+	
+	background: #666666;
+	background: -webkit-linear-gradient(#666666, #666666);
+	background: -moz-linear-gradient(#666666, #666666);
+	background: -o-linear-gradient(#666666, #666666);
+	background: -ms-linear-gradient(#666666, #666666);
+	background: linear-gradient(#666666, #666666);
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr="#666666", EndColorStr="#666666");
+}
+ul.ft-menu > li.ft-field > div.ft-panel > ul.ft-tags > li.ft-highlight:active {
+	background: -webkit-linear-gradient(#666666, #666666);
+	background: -moz-linear-gradient(#666666, #666666);
+	background: -o-linear-gradient(#666666, #666666);
+	background: -ms-linear-gradient(#666666, #666666);
+	background: linear-gradient(#666666, #666666);
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr="#666666", EndColorStr="#666666");
+}
+ul.ft-menu > li.ft-field > div.ft-panel > ul.ft-tags > li.ft-highlight:after {
+	background: #ED1620;
+}
+
+ul.ft-menu > li.ft-field > div.ft-panel > div.ft-mismatch {
+    font-size: 12px;
+	padding: 10px 15px;	
+	background: #eeeeee;
+	
+}
+
+/* REQUIRED! */
+.ft-hidden { /*display: none !important; */ }
+
+
+/* Custom webkit scrollbars */
+ul.ft-menu > li.ft-field > div.ft-panel > ul.ft-tags::-webkit-scrollbar {
+    width: 10px;
+}
+ul.ft-menu > li.ft-field > div.ft-panel > ul.ft-tags::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.5);
+    background: #DDD;
+}
+ul.ft-menu > li.ft-field > div.ft-panel > ul.ft-tags::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.7);
+    background: #EEE;
+}
+
