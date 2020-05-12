@@ -1,2 +1,0 @@
-# kykuruza.github.io
- 

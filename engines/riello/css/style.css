@@ -300,6 +300,7 @@ input[type="submit"] {
     background-color: #fff;
 }
 
+
 .boxed-page {
   position: relative;
   width: 1220px;
@@ -353,6 +354,9 @@ input[type="submit"] {
 	bottom: 0px;
 	-webkit-animation-delay: -1.0s;
 	animation-delay: -1.0s;
+}
+.element.style {
+    height: 1px;
 }
 
 @-webkit-keyframes rotatee { 100% { -webkit-transform: rotate(360deg) }}
@@ -408,7 +412,7 @@ header {
 
 .top-bar {
 	background-color: #eeeeee;
-	border-bottom: 1px solid #f2f2f2;
+	border-bottom: 20px solid #ffffff;
 }
 
 .top-bar.color-bar {
